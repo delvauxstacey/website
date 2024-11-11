@@ -1,0 +1,88 @@
+.title {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 1px solid;
+}
+
+.intro img {
+    border-radius: 80px;
+}
+
+.intro div {
+    margin-left: 40px;
+    width: 1000px;
+}
+
+.facts {
+    display: grid;
+    text-align: center;
+    padding: 40px;
+}
+
+.facts .container {
+    width: 50%;
+    margin: auto;
+}
+
+.facts .container div {
+    width: 50%;
+}
+
+.facts .container div .answer {
+    font-family: cursive;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.facts .container div .answer-with-paw {
+    margin-left: 35px;
+}
+
+.facts .container div .paw {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    animation: pawAnimation 1s infinite alternate;
+    fill: rgb(131, 104, 71);
+}
+
+.facts .container {
+    font-weight: bold;
+}
+
+.facts .container .column-left {
+    float: left;
+}
+
+.facts .container .column-right {
+    float: right;
+}
+
+@keyframes pawAnimation {
+    0% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(10px);
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .intro img .intro div {
+        width: 94%;
+        float:none;
+    }
+    
+  }

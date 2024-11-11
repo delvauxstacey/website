@@ -1,0 +1,96 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff8ff;
+    color: #2E2E2A;
+    height: 100%;
+    width: 100%;
+}
+
+html::after {
+    content: "";
+    background-image: url(../img/achtergrondwebsite.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+a {
+    color: #2E2E2A;
+}
+
+header {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid;
+    padding: 15px;
+}
+
+header .section {
+    width: 100px;
+}
+
+header .logo {
+    text-align: left;
+    font-family: Brush Script MT;
+    font-size: 40px;
+}
+
+header nav {
+    text-align: center;
+    width: 100%;
+}
+
+header nav .active {
+    border-bottom: 1px solid;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 40px;
+}
+
+header nav a:hover {
+    color: #e8c8a4;
+}
+
+footer {
+    border-top: 1px solid;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    margin-top: auto;
+    height: 80px;
+}
+
+footer .social-links a {
+    text-decoration: none;
+}
+
+footer .social-links svg:hover {
+    fill: #e8c8a4;
+}
+
+@media only screen and (max-width: 800px) {
+    .header .footer{
+        width: 94%;
+        float:none;
+    }
+    
+  }

@@ -1,0 +1,117 @@
+.container {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro,
+.experience,
+.trivia {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.intro .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro img {
+    border-radius: 60px;
+}
+
+.intro .name {
+    font-family: brush script MT;
+    font-size: 75px;
+    color: #fc9e81;
+}
+
+.intro .bio {
+    background-color: #bafcf9d9;
+    padding: 40px 60px;
+    border-radius: 50px;
+    margin-top: auto;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.title {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.experience .skills {
+    background-color: #e0ff7ddb;
+    padding: 20px;
+    border-radius: 50px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience .education {
+    background-color: #ff6bcfd1;
+    padding: 20px;
+    border-radius: 50px;
+    flex: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience .work {
+    background-color: #ffdb66cf;
+    padding: 20px;
+    border-radius: 50px;
+    flex: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trivia .languages {
+    background-color: #cb8bffe0;
+    padding: 20px;
+    border-radius: 50px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trivia .contact {
+    background-color: #00ffbdc4;
+    padding: 20px;
+    border-radius: 50px;
+    flex: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trivia .quote {
+    background-color: #ff628bd6;
+    padding: 60px;
+    border-radius: 50px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    position: relative;
+}
